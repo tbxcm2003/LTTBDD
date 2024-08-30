@@ -20,7 +20,7 @@ if (dolphinsAvg > koalasAvg) {
     console.log("It's a draw!");
 }
 
-// Bonus 1: Minimum score of 100 to win
+// Bonus 1:
 if (dolphinsAvg > koalasAvg && dolphinsAvg >= 100) {
     console.log("Dolphins win the trophy with the minimum score rule!");
 } else if (koalasAvg > dolphinsAvg && koalasAvg >= 100) {
@@ -29,7 +29,7 @@ if (dolphinsAvg > koalasAvg && dolphinsAvg >= 100) {
     console.log("No team wins the trophy based on the minimum score rule.");
 }
 
-// Bonus 2: Minimum score of 100 for a draw
+// Bonus 2: 
 if (dolphinsAvg === koalasAvg && dolphinsAvg >= 100 && koalasAvg >= 100) {
     console.log("It's a draw with the minimum score rule!");
 } else {
